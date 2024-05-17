@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f8f8;;;
+}
+
+.registr_form {
+    max-width: 320px;
+    max-height: 420px;
+    padding: 15px 15px 15px 15px;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #ccc;
+}
+
+.form_group {
+    padding-bottom: 20px;
+}
+
+.form_group input {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+.button_form {
+    text-align: center; 
+}
+
+.button_form button {
+    display: inline-block; 
+    background-color: #1cbc11;
+    transition: all 0.3s; 
+}
+
+.button_form button:hover {
+    background-color: #14a20a; 
+}
